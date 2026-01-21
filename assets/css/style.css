@@ -118,6 +118,24 @@ body {
     animation-range: cover 0% cover 50%;
 }
 
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 0.75rem 1.25rem;   /* 12px 20px → rem */
+  border-radius: 0.75rem;     /* 12px → rem */
+  box-shadow: 0 0.375rem 1.125rem rgba(0, 0, 0, 0.4); /* 6px 18px → rem */
+  max-width: 70%;
+  margin: 0 auto;
+  bottom: 15%;
+}
+
+/* Texto da legenda */
+.carousel-caption h5,
+.carousel-caption p {
+  color: #fff;
+  text-shadow: 0.0625rem 0.0625rem 0.1875rem rgba(0, 0, 0, 0.8); /* 1px 1px 3px */
+}
+
 .fundoTexto {
     background-color: #0056A7;
     height: auto;
@@ -128,7 +146,22 @@ body {
     animation: appear 3s;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
+    box-shadow: 0 0.20rem 1rem rgba(0, 0, 0, 0.25);
 }
+
+.fundoTexto {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    background-color 0.35s ease;
+}
+
+.fundoTexto:hover {
+  transform: translateY(-0.5rem); 
+  box-shadow: 0 1rem 2.25rem rgba(0, 0, 0, 0.35);
+  background-color: #0a66c2; 
+}
+
 
 .balaoTexto {
     color: #FFFFFF;
@@ -155,6 +188,32 @@ body {
     animation-range: cover 0% cover 50%;
 }
 
+.imgInfra {
+  width: 100%;
+  max-width: 25rem;       
+  height: 18.75rem;     
+  object-fit: cover;
+  border-radius: 1rem;   
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.18);
+}
+
+.imgInfra:hover {
+  transform: translateY(-0.5rem); 
+  box-shadow: 0 1rem 2.25rem rgba(0, 0, 0, 0.28);
+}
+
+
+@media (max-width: 48rem) {
+  .imgInfra:hover {
+    transform: translateY(-0.25rem);
+  }
+}
+
+
 .balaoPolitica {
     background-color: #0056A7;
     height: auto;
@@ -165,6 +224,25 @@ body {
     animation: appear 3s;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
+        box-shadow: 0 0.20rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.balaoPolitica {
+     transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    background-color 0.35s ease;
+}
+
+.balaoPolitica:hover{
+    transform: translateY(-0.5rem); 
+  box-shadow: 0 1rem 2.25rem rgba(0, 0, 0, 0.35);
+  background-color: #0a66c2; 
+}
+
+.balaoPolitica:hover .imgPolitica {
+  transform: scale(1.05);
+  box-shadow: 0 1rem 2.25rem rgba(0, 0, 0, 0.28);
 }
 
 .balaoPolitica p, h2 {

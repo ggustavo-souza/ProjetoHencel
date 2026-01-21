@@ -82,7 +82,7 @@ include HEADER_TEMPLATE;
         </div>
     </div>
 
-    <section class="fotosEmpresa d-flex justify-content-around mt-5">
+    <section class="fotosEmpresa d-flex justify-content-around mt-5 cardEmpresa">
         <div class="col-5">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil veniam eveniet iste pariatur? Magni,
                 asperiores voluptas? Blanditiis assumenda impedit cupiditate laudantium, itaque voluptatibus beatae sit
@@ -92,7 +92,7 @@ include HEADER_TEMPLATE;
             <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" alt="Foto da empresa" class="fotoEmpresa1">
         </div>
     </section>
-    <section class="fotosEmpresa d-flex justify-content-around mt-5">
+    <section class="fotosEmpresa d-flex justify-content-around mt-5 cardEmpresa">
         <div class="col-5">
             <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" alt="Foto da empresa" class="fotoEmpresa1">
         </div>
@@ -102,7 +102,7 @@ include HEADER_TEMPLATE;
                 possimus soluta. Repellat, quae aperiam?</p>
         </div>
     </section>
-    <section class="fotosEmpresa d-flex justify-content-around mt-5">
+    <section class="fotosEmpresa d-flex justify-content-around mt-5 cardEmpresa">
         <div class="col-5">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil veniam eveniet iste pariatur? Magni,
                 asperiores voluptas? Blanditiis assumenda impedit cupiditate laudantium, itaque voluptatibus beatae sit
