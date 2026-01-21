@@ -20,6 +20,7 @@ include '../inc/config.php';
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/bootstrap/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/empresa.css">
     <script src="<?php echo BASE_URL; ?>assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/bootstrap/bootstrap.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/index.js" defer></script>
