@@ -38,7 +38,7 @@ include HEADER_TEMPLATE;
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<?php echo BASE_URL ?>assets/images/imagem3.jpeg" alt="Imagem 3"
+                        <img src="<?php echo BASE_URL ?>assets/images/infra1.jpeg" alt="Imagem 3"
                             class="imgServicos mt-2 shadow-5" width="1000px" height="700px">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
@@ -70,7 +70,7 @@ include HEADER_TEMPLATE;
     <section class="tituloInfra">
         <h2 class="text-center mb-4">Infraestrutura</h2>
         <div class="imagensInfra d-flex justify-content-center align-items-center text-center mb-4 gap-4">
-            <img src="<?php echo BASE_URL ?>assets/images/infra1.jpeg" alt="Imagem Infraestrutura 1"
+            <img src="<?php echo BASE_URL ?>assets/images/imagem3.jpeg" alt="Imagem Infraestrutura 1"
                 class="imgInfra shadow shadow-5 col-4" height="300px" width="400px">
             <img src="<?php echo BASE_URL ?>assets/images/infra2.jpeg" alt="Imagem Infraestrutura 2"
                 class="imgInfra shadow shadow-5 col-4" height="300px" width="400px">
