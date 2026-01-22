@@ -26,6 +26,12 @@
     color: #ffffff;
 }
 
+.textoSobreNos h4 {
+    color: #ffffff;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
 .textoSobreNos {
     opacity: 0;
     transition: 1.5s ease-in-out;

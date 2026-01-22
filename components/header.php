@@ -21,6 +21,7 @@ require_once(__DIR__ . "/../inc/config.php");
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/empresa.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/clientes.css">
     <script src="<?php echo BASE_URL; ?>assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/bootstrap/bootstrap.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/index.js" defer></script>
@@ -34,7 +35,6 @@ require_once(__DIR__ . "/../inc/config.php");
                         width="110">
             </a></li>
             <li class="nav-item"><a class="" href="<?php echo BASE_URL; ?>views/empresa.php">Empresa</a></li>
-            <li class="nav-item"><a class="" href="<?php echo BASE_URL; ?>views/servicos.php">Serviços</a></li>
             <li class="nav-item"><a class="" href="<?php echo BASE_URL; ?>views/clientes.php">Clientes</a></li>
         </ul>
     </nav>
