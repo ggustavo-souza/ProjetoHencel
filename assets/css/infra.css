@@ -1,5 +1,6 @@
 .fraseEmpresa {
     font-weight: 500;
+    margin-top: 6rem;
     color: #ffffff;
     transition: 1.5s ease-in-out;
     opacity: 0;
@@ -36,6 +37,9 @@
     opacity: 0;
     transition: 1.5s ease-in-out;
     margin-bottom: 6rem;
+    animation: appear 3s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
 }
 
 .textoSobreNos p {
@@ -53,11 +57,18 @@
 
 .containerSobreNos {
     margin-top: 6rem;
+    margin-bottom: 15rem;
 }
 
 #accordionEmpresa {
     margin-bottom: 6rem;
     border: none;
+}
+
+.accordion {
+    animation: appear 3s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
 }
 
 .accordion-button {
@@ -158,4 +169,10 @@
     max-width: 100%;
     height: 16rem;
   }
+}
+
+.imagemSobreNos {
+    animation: appear 3s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
 }

@@ -81,20 +81,6 @@ body {
     text-decoration: underline;
 }
 
-.servicosAba {
-    margin-top: 20rem;
-    margin-bottom: 6rem;
-}
-
-.servicosAba h2 {
-    color: #FFFFFF;
-    font-size: 2.5rem;
-    margin-bottom: 4rem;
-    animation: appear 3s;
-    animation-timeline: view();
-    animation-range: cover 0% cover 50%;
-}
-
 @keyframes appear {
     from {
         opacity: 0;
@@ -104,36 +90,6 @@ body {
         opacity: 1;
         translate: 0 0;
     }
-}
-
-.imgServicos {
-    border-radius: 5rem;
-    margin: 0 1rem;
-    transition: transform 0.3s ease;
-}
-
-.carousel {
-    animation: appear 3s;
-    animation-timeline: view();
-    animation-range: cover 0% cover 50%;
-}
-
-
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.55);
-  padding: 0.75rem 1.25rem;   /* 12px 20px → rem */
-  border-radius: 0.75rem;     /* 12px → rem */
-  box-shadow: 0 0.375rem 1.125rem rgba(0, 0, 0, 0.4); /* 6px 18px → rem */
-  max-width: 70%;
-  margin: 0 auto;
-  bottom: 15%;
-}
-
-/* Texto da legenda */
-.carousel-caption h5,
-.carousel-caption p {
-  color: #fff;
-  text-shadow: 0.0625rem 0.0625rem 0.1875rem rgba(0, 0, 0, 0.8); /* 1px 1px 3px */
 }
 
 .fundoTexto {
@@ -224,7 +180,7 @@ body {
     animation: appear 3s;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
-        box-shadow: 0 0.20rem 1rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.20rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .balaoPolitica {
@@ -270,6 +226,62 @@ body {
 .mapaFooter {
     border: none;
     border-radius: 3rem;
+}
+
+.sobreNos {
+    margin-top: 14rem;
+}
+
+.marginTexto {
+    margin-bottom: 13rem;
+}
+
+.ganchoInfra {
+    margin-top: 10rem;
+    padding: 4rem 2rem;
+    background-color: #0056A7;
+    border-radius: 3rem;
+    animation: appear 3s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+.ganchoInfra h3 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.botaoGancho {
+    padding: 2rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    border: none;
+    transition: 0.3s;
+    background-size: 180% auto;
+}
+
+.botaoGancho:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botaoGancho a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botaoGancho a:hover {
+    font-size: 1.8rem;
+    transition: 0.3s;
+}
+
+.imgGanchoInfra {
+    border-radius: 2rem;
 }
 
 

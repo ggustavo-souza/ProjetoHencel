@@ -57,15 +57,23 @@ include HEADER_TEMPLATE;
         <div class="baloesContato d-flex gap-5 justify-content-center">
             <div class="col-5 mb-3 baloes">
                 <div class="text-start">
-                    <h2>Telefone:</h2>
-                    <p>(11) 1234-5678</p>
+                    <h2>Whatsapp:</h2>
+                    <p class="mt-5 mb-5">Clique no botão abaixo para entrar
+                        em contato conosco via WhatsApp!
+                    </p>
+                    <button class="botaoGancho shadow-5 mt-4 mb-3"><a class="linkBotao"><i class="bi bi-whatsapp me-3"></i>Contate-nos</a></button>
                 </div>
             </div>
             <div class="col-5 mb-3 baloes">
                 <div class="text-start">
                     <h2>Email:</h2>
-                    <p></p>
+                    <p class="mt-5 mb-5">Clique no botão abaixo para entrar
+                        em contato conosco via email!</p>
+                    <button class="botaoGancho shadow-5 mt-4 mb-3"><a class="linkBotao"><i class="bi bi-envelope me-3"></i>Contate-nos</a></button>
                 </div>
             </div>
         </div>
     </section>
+</main>
+
+<?php include FOOTER_TEMPLATE; ?>

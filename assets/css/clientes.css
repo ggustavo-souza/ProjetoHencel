@@ -31,3 +31,29 @@
     color: #ffffff;
 }
 
+.baloes i {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.botaoContato {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    background-size: 150% auto;
+    border: none;
+    border-radius: 1.3rem;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-align: center;
+    
+}
+
+.botaoContato a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+
+
