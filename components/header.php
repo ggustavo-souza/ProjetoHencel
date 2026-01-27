@@ -24,19 +24,24 @@ require_once(__DIR__ . "/../inc/config.php");
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/clientes.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <script src="<?php echo BASE_URL; ?>assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo BASE_URL; ?>assets/bootstrap/bootstrap.min.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/index.js" defer></script>
 </head>
 
 <body style="background-color: #2F76C2; ">
-    <nav class="corNavbar navbar navbar-expand-md col-12 justify-content-center align-items-center mb-3 ">
-        <ul class="ulNavbar navbar-nav d-flex justify-content-center align-items-center gap-5 list-unstyled p-0">
+    <nav class="corNavbar navbar navbar-expand-sm mb-3">
+
+        <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" class="collapse navbar-collapse justify-content-center align-items-center">
+            <ul class="ulNavbar navbar-nav justify-content-center align-items-center gap-5 list-unstyled p-0">
             <a href="<?php echo BASE_URL; ?>">
                 <li class="nav-item"><img src="<?php echo BASE_URL; ?>assets/images/logocerta2.png" alt="Logo Hencel"
                         width="110">
             </a></li>
             <li class="nav-item"><a class="" href="<?php echo BASE_URL; ?>views/infra.php">Infraestrutura</a></li>
             <li class="nav-item"><a class="" href="<?php echo BASE_URL; ?>views/clientes.php">Clientes</a></li>
-        </ul>
+            </ul>
+        </div>
     </nav>
-</body>

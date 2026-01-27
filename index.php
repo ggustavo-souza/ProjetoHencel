@@ -16,9 +16,9 @@ include HEADER_TEMPLATE;
         <button class="btn-grad shadow-5 mt-4"><a class="linkBotao">Saiba mais</a></button>
     </section>
     <!-- sobre nos home-->
-    <section class="row">
-        <div class="d-flex mt-5 gap-5">
-            <div class="textoSobreNos col-6">
+    <section class="d-flex">
+        <div class="row mt-5 gap-5">
+            <div class="textoSobreNos col-sm-12 col-md-6">
                 <h2 class="mb-4">Sobre Nós</h2>
                 <p>Estamos no mercado desde 1991 e trabalhamos com
                     clientes de diversos segmentos, tais como:
@@ -32,7 +32,7 @@ include HEADER_TEMPLATE;
                     embalagem.
                 </p>
             </div>
-            <div class="imagemSobreNos col-6">
+            <div class="imagemSobreNos col-sm-12 col-md-2">
                 <img src="<?php echo BASE_URL ?>assets/images/imagem2.jpeg" alt="Imagem Sobre Nós"
                     class="imgSobreNos shadow shadow-5" height="330px" width="500px">
             </div>
@@ -103,11 +103,11 @@ include HEADER_TEMPLATE;
 
     <section class="ganchoInfra d-flex">
         <div class="row">
-            <div class="col-6 textoGanchoInfra align-items-center justify-content-center text-center">
+            <div class="col-sm-12 col-md-6 textoGanchoInfra align-items-center justify-content-center text-center">
                 <h3>Conheça nossa infraestrutura e saiba como podemos ajudar no seu projeto!</h3>
-                <button class="botaoGancho shadow-5 mt-4"><a class="linkBotao">Saiba mais</a></button>
+                <button class="botaoGancho shadow-5 mt-4 mb-3"><a class="linkBotao">Saiba mais</a></button>
             </div>
-            <div class="col-6 imagemGanchoInfra">
+            <div class="col-sm-12 col-md-2 imagemGanchoInfra">
                 <img src="<?php echo BASE_URL ?>assets/images/imagem3.jpeg" alt="Imagem Gancho Infraestrutura"
                     class="imgGanchoInfra shadow shadow-5" height="330px" width="500px">
             </div>
@@ -116,7 +116,7 @@ include HEADER_TEMPLATE;
 
     <section class="balaoPolitica">
         <div class="fundoPolitica d-block text-center">
-            <p class="textoPolitica col-8 col-sm-12"><b>Política de Qualidade</b><br><br>A <b>Hencel</b> tem como
+            <p class="textoPolitica col-sm-12 col-md-12"><b>Política de Qualidade</b><br><br>A <b>Hencel</b> tem como
                 objetivo atender
                 as
                 expectativas de nossos clientes
@@ -124,7 +124,7 @@ include HEADER_TEMPLATE;
                 processos, com a participação de todos os nossos colaboradores.<br><br>SGQ – Sistema da Garantia da
                 Qualidade<br><br>Implantado e certificado pela NBR ISO 9001</p>
             <img src="<?php echo BASE_URL ?>assets/images/selo-brtuv.jpg" alt="Imagem Política de Qualidade"
-                class="imgPolitica shadow shadow-5 col-3 col-sm-6 col-md-3 mt-3" height="250px" width="250px">
+                class="imgPolitica shadow shadow-5 col-sm-12 col-md-2 mt-3" height="250px" width="250px">
         </div>
     </section>
 </main>

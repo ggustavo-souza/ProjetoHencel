@@ -226,6 +226,9 @@ body {
 .mapaFooter {
     border: none;
     border-radius: 3rem;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .sobreNos {

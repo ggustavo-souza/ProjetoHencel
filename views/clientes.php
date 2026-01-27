@@ -55,7 +55,7 @@ include HEADER_TEMPLATE;
 
     <section class="row">
         <div class="baloesContato d-flex gap-5 justify-content-center">
-            <div class="col-5 mb-3 baloes">
+            <div class="col-sm-12 col-md-6 mb-3 baloes">
                 <div class="text-start">
                     <h2>Whatsapp:</h2>
                     <p class="mt-5 mb-5">Clique no botão abaixo para entrar
@@ -64,7 +64,7 @@ include HEADER_TEMPLATE;
                     <button class="botaoGancho shadow-5 mt-4 mb-3"><a class="linkBotao"><i class="bi bi-whatsapp me-3"></i>Contate-nos</a></button>
                 </div>
             </div>
-            <div class="col-5 mb-3 baloes">
+            <div class="col-sm-12 col-md-5 mb-3 baloes">
                 <div class="text-start">
                     <h2>Email:</h2>
                     <p class="mt-5 mb-5">Clique no botão abaixo para entrar
