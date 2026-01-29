@@ -18,7 +18,7 @@ include HEADER_TEMPLATE;
     <!-- sobre nos home-->
     <section class="d-flex">
         <div class="row mt-5 gap-5">
-            <div class="textoSobreNos col-sm-12 col-md-6">
+            <div class="textoSobreNos col-sm-12 col-md-7">
                 <h2 class="mb-4">Sobre Nós</h2>
                 <p>Estamos no mercado desde 1991 e trabalhamos com
                     clientes de diversos segmentos, tais como:
@@ -33,8 +33,8 @@ include HEADER_TEMPLATE;
                 </p>
             </div>
             <div class="imagemSobreNos col-sm-12 col-md-2">
-                <img src="<?php echo BASE_URL ?>assets/images/imagem2.jpeg" alt="Imagem Sobre Nós"
-                    class="imgSobreNos shadow shadow-5" height="330px" width="500px">
+                <img src="<?php echo BASE_URL ?>assets/images/infra3.jpeg" alt="Imagem Sobre Nós"
+                    class="imgSobreNos shadow shadow-5" height="480px" width="450px">
             </div>
         </div>
     </section>
@@ -72,12 +72,7 @@ include HEADER_TEMPLATE;
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionInfra">
                 <div class="accordion-body">
-                    <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It’s also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    Ser a primeira opção para soluções em produtos plásticos.
                 </div>
             </div>
         </div>
@@ -90,12 +85,11 @@ include HEADER_TEMPLATE;
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionInfra">
                 <div class="accordion-body">
-                    <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It’s also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+                    Temos um compromisso com a qualidade e produtividade conforme as exigências da <strong>ISO 9001</strong>.
+                     Buscamos sempre oferecer a opção com o <strong>melhor custo x benefício</strong>.
+                    Incentivamos o desenvolvimento dos nossos <strong>Colaboradores</strong>. 
+                    Valorizamos a integração com nossos <strong>Parceiros</strong>. 
+                    Buscamos a satisfação dos nossos <strong>Clientes</strong>.
                 </div>
             </div>
         </div>
@@ -105,11 +99,11 @@ include HEADER_TEMPLATE;
         <div class="row">
             <div class="col-sm-12 col-md-6 textoGanchoInfra align-items-center justify-content-center text-center">
                 <h3>Conheça nossa infraestrutura e saiba como podemos ajudar no seu projeto!</h3>
-                <button class="botaoGancho shadow-5 mt-4 mb-3"><a class="linkBotao">Saiba mais</a></button>
+                <button class="botaoGancho shadow-5 mt-4 mb-3"><a href="views/infra.php" class="linkBotao">Saiba mais</a></button>
             </div>
             <div class="col-sm-12 col-md-2 imagemGanchoInfra">
-                <img src="<?php echo BASE_URL ?>assets/images/imagem3.jpeg" alt="Imagem Gancho Infraestrutura"
-                    class="imgGanchoInfra shadow shadow-5" height="330px" width="500px">
+                <img src="<?php echo BASE_URL ?>assets/images/imagem4.jpeg" alt="Imagem Gancho Infraestrutura"
+                    class="imgGanchoInfra shadow shadow-5" height="400px" width="550px">
             </div>
         </div>
     </section>
@@ -124,7 +118,7 @@ include HEADER_TEMPLATE;
                 processos, com a participação de todos os nossos colaboradores.<br><br>SGQ – Sistema da Garantia da
                 Qualidade<br><br>Implantado e certificado pela NBR ISO 9001</p>
             <img src="<?php echo BASE_URL ?>assets/images/selo-brtuv.jpg" alt="Imagem Política de Qualidade"
-                class="imgPolitica shadow shadow-5 col-sm-12 col-md-2 mt-3" height="250px" width="250px">
+                class="imgPolitica shadow shadow-5 col-sm-12 col-md-3 mt-3" height="250px" width="250px">
         </div>
     </section>
 </main>

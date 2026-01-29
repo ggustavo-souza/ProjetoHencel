@@ -20,25 +20,25 @@ include HEADER_TEMPLATE;
 
     <section class="row imagensClientes mb-5">
         <div class="col-md-4 mb-3">
-            <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" class="img-fluid rounded" alt="Cliente 1">
+            <img src="<?php echo BASE_URL; ?>assets/images/1.png" class="img-fluid rounded" alt="Ecoplast Ind. e Comercio">
         </div>
         <div class="col-md-4 mb-3">
-            <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" class="img-fluid rounded" alt="Cliente 2">
+            <img src="<?php echo BASE_URL; ?>assets/images/2.png" class="img-fluid rounded" alt="Inova Aluminio LTDA">
         </div>
         <div class="col-md-4 mb-3">
-            <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" class="img-fluid rounded" alt="Cliente 3">
+            <img src="<?php echo BASE_URL; ?>assets/images/3.png" class="img-fluid rounded" alt="La Termoplastic F.B.M.S.A.">
         </div>
     </section>
 
     <section class="row imagensClientes mb-5">
         <div class="col-md-4 mb-3">
-            <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" class="img-fluid rounded" alt="Cliente 1">
+            <img src="<?php echo BASE_URL; ?>assets/images/4.png" class="img-fluid rounded" alt="Ace Schmersal Eletro.">
         </div>
         <div class="col-md-4 mb-3">
-            <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" class="img-fluid rounded" alt="Cliente 2">
+            <img src="<?php echo BASE_URL; ?>assets/images/5.png" class="img-fluid rounded" alt="Implastec Plas. E Tec.">
         </div>
         <div class="col-md-4 mb-3">
-            <img src="<?php echo BASE_URL; ?>assets/images/imagem1.jpeg" class="img-fluid rounded" alt="Cliente 3">
+            <img src="<?php echo BASE_URL; ?>assets/images/6.png" class="img-fluid rounded" alt="Moinho Prod. Sustentáveis">
         </div>
     </section>
 
